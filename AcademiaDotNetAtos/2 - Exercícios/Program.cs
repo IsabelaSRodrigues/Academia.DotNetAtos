@@ -147,9 +147,19 @@ namespace AcademiaDotNetAtos
             double calcIpiA = calcTotalA * (ipiA / 100);
             double calcIpiB = calcTotalB * (ipiB / 100);
 
-            Console.WriteLine("O parafuso A possui o código:"+codeA+", com a quantidade de peças totais de:"+amountA+", o valor total do parafuso é de R$" + calcTotalA+" e o valor de IPI é de R$" +calcIpiA);
-            Console.WriteLine("O parafuso B possui o código:" + codeB + ", com a quantidade de peças totais de:" + amountB + ", o valor total do parafuso é de R$" + calcTotalB + " e o valor de IPI é de R$" + calcIpiB);
-            
+            Console.WriteLine("================================================");
+
+            Console.WriteLine("O parafuso A possui o código:" + codeA);   
+            Console.WriteLine("A quantidade de peças totais de:" + amountA);
+            Console.WriteLine("O valor unitário do parafuso é de R$" + valueA);
+            Console.WriteLine("O valor total do parafuso é de R$" + calcTotalA);
+
+            Console.WriteLine("================================================");
+
+            Console.WriteLine("O parafuso B possui o código:" + codeB);
+            Console.WriteLine("A quantidade de peças totais de:" + amountB);
+            Console.WriteLine("O valor unitário do parafuso é de R$" + valueB);
+            Console.WriteLine("O valor total do parafuso é de R$" + calcTotalB);
            
             */
             
