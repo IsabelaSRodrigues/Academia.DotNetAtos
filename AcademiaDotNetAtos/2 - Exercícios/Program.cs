@@ -116,8 +116,50 @@ namespace AcademiaDotNetAtos
             isto é, o código, a quantidade de peças e o valor unitário de cada parafuso e a porcentagem 
             de IPI (única) a ser acrescentada.
             
+            Console.Write("Digite o código do parafuso A:");
+            string codeA = Console.ReadLine();
+
+            Console.Write("Digite a quantidade de parafuso A:");
+            int amountA = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Digite o valor unitário do parafuso A:");
+            double  valueA = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Digite a porcentagem de IPI do parafuso A:");
+            double ipiA = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Digite o código do parafuso B:");
+            string codeB = Console.ReadLine();
+
+            Console.Write("Digite a quantidade de parafuso B:");
+            int amountB = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Digite o valor unitário do parafuso B:");
+            double valueB = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Digite a porcentagem de IPI do parafuso B:");
+            double ipiB = Convert.ToDouble(Console.ReadLine());
+
+
+
+            double calcTotalA = valueA * amountA;
+            double calcTotalB = valueB * amountB;
+            double calcIpiA = calcTotalA * (ipiA / 100);
+            double calcIpiB = calcTotalB * (ipiB / 100);
+
+            Console.WriteLine("O parafuso A possui o código:"+codeA+", com a quantidade de peças totais de:"+amountA+", o valor total do parafuso é de R$" + calcTotalA+" e o valor de IPI é de R$" +calcIpiA);
+            Console.WriteLine("O parafuso B possui o código:" + codeB + ", com a quantidade de peças totais de:" + amountB + ", o valor total do parafuso é de R$" + calcTotalB + " e o valor de IPI é de R$" + calcIpiB);
             
-          
+           
+            */
+            
+            /* EXERCÍCIO 7
+            
+           7) Escreva um programa em C# e no Visual Studio que leia o número de um vendedor, o seu salário fixo, 
+           o total de vendas por ele efetuadas e o percentual que ganha sobre o total de vendas. 
+           Calcule o salário total do vendedor. Escreva o número do vendedor e o salário total do vendedor.
+            
+            
          
            
             */
