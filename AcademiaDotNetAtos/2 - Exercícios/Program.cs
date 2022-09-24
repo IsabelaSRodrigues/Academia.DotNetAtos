@@ -169,7 +169,25 @@ namespace AcademiaDotNetAtos
            o total de vendas por ele efetuadas e o percentual que ganha sobre o total de vendas. 
            Calcule o salário total do vendedor. Escreva o número do vendedor e o salário total do vendedor.
             
-            
+            Console.Write("Digite o numero do funcionario:");
+            string number = Console.ReadLine();
+
+            Console.Write("Digite o salario: R$");
+            double wage = Double.Parse(Console.ReadLine());
+
+            Console.Write("Digite o total de vendas: R$");
+            double sales = Double.Parse(Console.ReadLine());
+
+            Console.Write("Digite o percentual de vendas (%):");
+            double percent = Double.Parse(Console.ReadLine());
+
+            double percentf  = (sales / 100) * percent;
+            double wagef = wage + percentf;
+
+            Console.WriteLine("================================================");
+
+            Console.WriteLine("O numero do vendedor é: "+number);   
+            Console.WriteLine("O salário total do vendedor é: R$"+wagef);
          
            
             */
