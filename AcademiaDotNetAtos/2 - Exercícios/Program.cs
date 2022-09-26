@@ -219,15 +219,16 @@ namespace AcademiaDotNetAtos
             Console.Write("Digite o valor do produto: R$");
             double product = Double.Parse(Console.ReadLine());
 
-            double entrada = product / 2;
-            double parcela1 = entrada / 2;
-            double parcela2 = parcela1;
+            double resto = product % 3;
+            product = product - resto;
 
+            double parcela = product / 3;
 
-            Console.WriteLine("A entrada será de: R$"+entrada);
-
-            Console.WriteLine("A primeira parcela será de: R$" + parcela1);
-            Console.WriteLine("A segunda parcela será de: R$" + parcela2);
+            double entrada = parcela + resto;
+            
+            Console.WriteLine("A entrada será de: R$" + entrada);
+            Console.WriteLine("A primeira parcela será de: R$" + parcela);
+            Console.WriteLine("A segunda parcela será de: R$" + parcela);
 
         }
     }
