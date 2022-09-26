@@ -144,8 +144,8 @@ namespace AcademiaDotNetAtos
 
             double calcTotalA = valueA * amountA;
             double calcTotalB = valueB * amountB;
-            double calcIpiA = calcTotalA * (ipiA / 100);
-            double calcIpiB = calcTotalB * (ipiB / 100);
+            double calcIpiA = calcTOtalA + (calcTotalA * (ipiA / 100));
+            double calcIpiB = calcTOtalB + (calcTotalB * (ipiB / 100));
 
             Console.WriteLine("================================================");
 
