@@ -102,22 +102,7 @@ namespace ExerciciosSegundoDia
 
              
             /*
-            Console.Write("Digite a primeira nota:");
-            double nota1 = double.Parse(Console.ReadLine());
-
-            Console.Write("Digite a segunda nota:");
-            double nota2 = double.Parse(Console.ReadLine());
-
-            double average = (nota1 + nota2) / 2;
-
-            if(average >= 7)
-            {
-                Console.Write("Aluno Aprovado!");
-            }
-            else if (average <7)
-            {
-                double averagef = average 
-            }
+           
 
 
 
@@ -183,20 +168,7 @@ namespace ExerciciosSegundoDia
 
 
 
-            Console.Write("Digite o valor do produto: R$");
-            double product = Double.Parse(Console.ReadLine());
-
-            double resto = product % 3;
-            product = product - resto;
-
-            double parcela = product / 3;
-
-            double entrada = parcela + resto;
           
-            
-            Console.WriteLine("A entrada será de: R$" + entrada);
-            Console.WriteLine("A primeira parcela será de: R$" + parcela);
-            Console.WriteLine("A segunda parcela será de: R$" + parcela);
            
 
 
