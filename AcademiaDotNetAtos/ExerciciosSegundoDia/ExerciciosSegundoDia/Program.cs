@@ -1,13 +1,21 @@
-﻿using System.Security.Cryptography.X509Certificates;
+using System.Security.Cryptography.X509Certificates;
 using System.Xml.Linq;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace ExerciciosSegundoDia
 {
     internal class Program
     {
         static void Main(string[] args)
-        {
+        {   /*
+            1 - Faça um algoritmo para calcular e mostrar a área de um triângulo a partir dos valores da base e da altura lidos pelo teclado: 
+            Área do triangulo = (base * altura) / 2;
+            Teste se a base ou a altura digitada não foi igual a zero.
+
+
             /*
+            2 - Faça um algoritmo para ler um número e verificar se ele é par ou ímpar.
+
             Console.Write("Insira um número inteiro:");
             int number = int.Parse(Console.ReadLine());
 
@@ -22,6 +30,8 @@ namespace ExerciciosSegundoDia
             */
 
             /*
+            3 - Escrever um algoritmo para ler quatro valores inteiros, calcular a sua média, e escrever na tela os que são superiores à média.
+            
 
             Console.Write("Insira um número inteiro:");
             int number1 = int.Parse(Console.ReadLine());
@@ -55,6 +65,9 @@ namespace ExerciciosSegundoDia
             */
 
             /*
+             
+            4 - Escrever um algoritmo para ler a quantidade de horas aula dadas por dois professores e o valor por hora recebido por cada um deles. 
+            Mostrar na tela qual dos professores tem o maior salário total.
 
             Console.Write("Digite a quantidade de horas do primeiro professor:");
             int hour1 = int.Parse(Console.ReadLine());
@@ -81,7 +94,13 @@ namespace ExerciciosSegundoDia
             /*
             5 - Escrever um algoritmo para ler duas notas de um aluno e escrever na tela a palavra “Aprovado” 
             se a média das duas notas for maior ou igual a 7, 0.
-                */
+
+            Caso a média seja inferior a 7,0, o programa deve ler a nota do exame e calcular a média final,
+            é a média entre a nota do exame e a média das 2 notas. 
+            Se esta média final for maior ou igual a 5,0, o programa deve escrever “Aprovado”, caso contrário deve 
+            escrever “Reprovado”.
+
+             
             /*
             Console.Write("Digite a primeira nota:");
             double nota1 = double.Parse(Console.ReadLine());
@@ -99,6 +118,8 @@ namespace ExerciciosSegundoDia
             {
                 double averagef = average 
             }
+
+
 
             */
             /*
@@ -160,6 +181,8 @@ namespace ExerciciosSegundoDia
             total de vendas.
             */
 
+
+
             Console.Write("Digite o valor do produto: R$");
             double product = Double.Parse(Console.ReadLine());
 
@@ -169,9 +192,7 @@ namespace ExerciciosSegundoDia
             double parcela = product / 3;
 
             double entrada = parcela + resto;
-            
-
-           
+          
             
             Console.WriteLine("A entrada será de: R$" + entrada);
             Console.WriteLine("A primeira parcela será de: R$" + parcela);
@@ -185,4 +206,3 @@ namespace ExerciciosSegundoDia
 
         }
     }
-}
