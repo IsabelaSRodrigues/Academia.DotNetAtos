@@ -165,6 +165,32 @@ namespace ExerciciosSegundoDia
             E por fim, se o total de vendas seja maior que R$ 5000,00, adicionar ao seu salário final 10 % do
             total de vendas.
             */
+            
+            //18 - Escreva um algoritmo que leia 3 valores pelo teclado e então informe qual o maior deles.
+
+            int n1, n2, n3;
+
+            Console.WriteLine("Digite o primeiro valor:");
+            n1 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o segundo valor:");
+            n2 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o terceiro valor:");
+            n3 = int.Parse(Console.ReadLine());
+
+            if(n1 > n2 && n1 > n3)
+            {
+                Console.Write("O maior valor é: " + n1);
+            }
+            else if(n2 > n3 && n2 > n1)
+            {
+                Console.Write("O maior valor é: " + n2);
+            }
+            else
+            {
+                Console.Write("O maior valor é: " + n3);
+            }
 
 
 
