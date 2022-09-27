@@ -1,0 +1,15 @@
+C:\Users\Isabela\Projeto\ExerciciosSegundoDia\ExerciciosSegundoDia\obj\Debug\net6.0\ExerciciosSegundoDia.csproj.AssemblyReference.cache
+C:\Users\Isabela\Projeto\ExerciciosSegundoDia\ExerciciosSegundoDia\obj\Debug\net6.0\ExerciciosSegundoDia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Isabela\Projeto\ExerciciosSegundoDia\ExerciciosSegundoDia\obj\Debug\net6.0\ExerciciosSegundoDia.AssemblyInfoInputs.cache
+C:\Users\Isabela\Projeto\ExerciciosSegundoDia\ExerciciosSegundoDia\obj\Debug\net6.0\ExerciciosSegundoDia.AssemblyInfo.cs
+C:\Users\Isabela\Projeto\ExerciciosSegundoDia\ExerciciosSegundoDia\obj\Debug\net6.0\ExerciciosSegundoDia.csproj.CoreCompileInputs.cache
+C:\Users\Isabela\Projeto\ExerciciosSegundoDia\ExerciciosSegundoDia\bin\Debug\net6.0\ExerciciosSegundoDia.exe
+C:\Users\Isabela\Projeto\ExerciciosSegundoDia\ExerciciosSegundoDia\bin\Debug\net6.0\ExerciciosSegundoDia.deps.json
+C:\Users\Isabela\Projeto\ExerciciosSegundoDia\ExerciciosSegundoDia\bin\Debug\net6.0\ExerciciosSegundoDia.runtimeconfig.json
+C:\Users\Isabela\Projeto\ExerciciosSegundoDia\ExerciciosSegundoDia\bin\Debug\net6.0\ExerciciosSegundoDia.dll
+C:\Users\Isabela\Projeto\ExerciciosSegundoDia\ExerciciosSegundoDia\bin\Debug\net6.0\ExerciciosSegundoDia.pdb
+C:\Users\Isabela\Projeto\ExerciciosSegundoDia\ExerciciosSegundoDia\obj\Debug\net6.0\ExerciciosSegundoDia.dll
+C:\Users\Isabela\Projeto\ExerciciosSegundoDia\ExerciciosSegundoDia\obj\Debug\net6.0\refint\ExerciciosSegundoDia.dll
+C:\Users\Isabela\Projeto\ExerciciosSegundoDia\ExerciciosSegundoDia\obj\Debug\net6.0\ExerciciosSegundoDia.pdb
+C:\Users\Isabela\Projeto\ExerciciosSegundoDia\ExerciciosSegundoDia\obj\Debug\net6.0\ExerciciosSegundoDia.genruntimeconfig.cache
+C:\Users\Isabela\Projeto\ExerciciosSegundoDia\ExerciciosSegundoDia\obj\Debug\net6.0\ref\ExerciciosSegundoDia.dll
