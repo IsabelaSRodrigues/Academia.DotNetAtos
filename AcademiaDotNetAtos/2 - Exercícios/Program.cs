@@ -236,6 +236,35 @@ namespace AcademiaDotNetAtos
             Console.WriteLine("A entrada será de: R$" + entrada);
             Console.WriteLine("A primeira parcela será de: R$" + parcela);
             Console.WriteLine("A segunda parcela será de: R$" + parcela);
+            
+            /*
+            
+            10) Um programa para gerenciar os saques de um caixa eletrônico deve possuir algum mecanismo 
+            para decidir o número de notas de cada valor que deve ser disponibilizado para o cliente que 
+            realizou o saque. Um possível critério seria o da “distribuição ótima” no sentido de que as 
+            notas de menor valor fossem distribuídas em número mínimo possível. 
+            Por exemplo, se a quantia solicitada fosse R$ 87,00 o programa deveria indicar uma nota de R$ 50,00, uma nota de R$ 20,00,
+            uma nota de R$ 10,00, uma nota de R$ 5,00 e duas notas de R$ 1,00. 
+            Escreva um programa que receba o valor da quantia solicitada e retorne a distribuição das notas 
+            de acordo com o critério da “distribuição ótima”.
+
+            11) Escreva um algoritmo para ler o número de eleitores de um município, 
+            o número de votos brancos, nulos e válidos. 
+            Calcule e escreva o percentual que cada um  representa em relação ao total de eleitores.
+
+            12) Um motorista de taxi deseja calcular o rendimento de seu carro na praça. Sabendo-se que o preço do combustível é de R$6,90, escreva um algoritmo para ler a 
+            marcação do odômetro (marcador de quilometragem) no início do dia, a marcação no final do dia, o número de litros de combustível gasto e o valor total (R$) recebido 
+            dos passageiros. Calcule e escreva a média do consumo em Km/l e o lucro líquido do dia.
+
+            Fórmulas: Total quilometragem =  marcação odômetro final do dia - marcação odômetro inicio do dia 
+
+            Média do consumo = Total quilometragem/ quantidade de combustível gasto
+
+            Lucro do dia = Valor total recebido - (quantidade de combustível gasto * 6,90)
+
+            13) Uma loja vende bicicletas com um acréscimo de 50% sobre o preço de custo. Ela paga a cada vendedor 2 salários mínimos mensais, mais uma comissão de 15% sobre o 
+            preço de custo de cada bicicleta vendida. Desenvolva um algoritmo que leia o valor do salário mínimo, o preço de custo de cada bicicleta e o número de bicicletas 
+            vendidas pelo vendedor, calcule e mostre: o salário do empregado
 
         }
     }
