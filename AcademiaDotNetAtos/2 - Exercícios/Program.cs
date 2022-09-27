@@ -12,7 +12,8 @@ namespace AcademiaDotNetAtos
             /* EXERCÍCIO 1
             
             1) Escreva um programa em C# e no Visual Studio para calcular a média aritmética entre dois números quaisquer.
-             
+             */
+            
             Console.WriteLine("Digite o primeiro número:");
             double  number1 = Convert.ToDouble(Console.ReadLine());
 
@@ -27,7 +28,8 @@ namespace AcademiaDotNetAtos
             /* EXERCÍCIO 2
             
             2) Escreva um programa em C# e no Visual Studio para calcular a média aritmética entre quatro números quaisquer.
-            
+            */
+                
             Console.WriteLine("Digite o primeiro número:");
             double  number1 = Convert.ToDouble(Console.ReadLine());
 
@@ -50,7 +52,8 @@ namespace AcademiaDotNetAtos
             
             3) Escreva a seqüência de atribuições, em forma de programa em C# e no Visual Studio, para trocar entre 
             si os valores de duas variáveis A e B.
-            
+            */
+                
             int a = 10;
             int b = 20;
             int c = 30;
@@ -68,6 +71,7 @@ namespace AcademiaDotNetAtos
 
            4) Faça um programa em C# e no Visual Studio que receba a data na forma DDMMAAAA e imprima na 
            forma AAAAMMDD e AAMMDD. Note que o dia, o mês e o ano devem ser lidos em variáveis diferentes.
+           */
 
            int day, month, year;
 
@@ -95,6 +99,7 @@ namespace AcademiaDotNetAtos
             5) Escreva um programa em C# e no Visual Studio para calcular o consumo médio de um automóvel 
             (medido em Km/l), sendo que são conhecidos a distância total percorrida e o volume de combustível 
             consumido para percorrê-la (medido em l).
+            */
             
             double distancia, combustivel, consumo;
 
@@ -115,6 +120,7 @@ namespace AcademiaDotNetAtos
             6) Escreva um programa em C# e no Visual Studio que leia os dados para o parafuso A e para o parafuso B, 
             isto é, o código, a quantidade de peças e o valor unitário de cada parafuso e a porcentagem 
             de IPI (única) a ser acrescentada.
+            */
             
             Console.Write("Digite o código do parafuso A:");
             string codeA = Console.ReadLine();
@@ -168,6 +174,7 @@ namespace AcademiaDotNetAtos
            7) Escreva um programa em C# e no Visual Studio que leia o número de um vendedor, o seu salário fixo, 
            o total de vendas por ele efetuadas e o percentual que ganha sobre o total de vendas. 
            Calcule o salário total do vendedor. Escreva o número do vendedor e o salário total do vendedor.
+           */
             
             Console.Write("Digite o numero do funcionario:");
             string number = Console.ReadLine();
