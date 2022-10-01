@@ -101,16 +101,16 @@ namespace AcademiaDotNetAtos
             consumido para percorrê-la (medido em l).
             */
             
-            double distancia, combustivel, consumo;
+            double distance, fuel, consumption;
 
             Console.WriteLine("Digite a distancia em quilometros:");
-            distancia = Double.Parse(Console.ReadLine());
+            distance = Double.Parse(Console.ReadLine());
             Console.WriteLine("Digite a quantidade litros utilizada:");
-            combustivel = Double.Parse(Console.ReadLine());
+            fuel = Double.Parse(Console.ReadLine());
 
-            consumo = distancia / combustivel;
+            consumption = distance / fuel;
 
-            Console.WriteLine("O consumo é: " + consumo+"km/l");
+            Console.WriteLine("O consumo é: " + consumption.ToString("C") + "km/l");
          
            
             */
