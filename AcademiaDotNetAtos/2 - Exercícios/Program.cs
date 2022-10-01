@@ -291,7 +291,7 @@ namespace AcademiaDotNetAtos
             Lucro do dia = Valor total recebido - (quantidade de combustível gasto * 6,90)
             */
             
-            double odoI, odoF, quilometragemT, average,combustivel,valueT,lucro;
+             double odoI, odoF, quilometragemT, media,combustivel,valorT,lucro;
 
             Console.WriteLine("Digite o valor do odômetro inicial (KM):");
             odoI = Double.Parse(Console.ReadLine());
@@ -303,16 +303,16 @@ namespace AcademiaDotNetAtos
             combustivel = Double.Parse(Console.ReadLine());
 
             Console.WriteLine("Digite o valor total recebido R$:");
-            valueT = Double.Parse(Console.ReadLine());
+            valorT = Double.Parse(Console.ReadLine());
 
 
 
             quilometragemT = odoF - odoI;
-            average = quilometragemT / combustivel;
-            lucro = valueT - (combustivel * 6.90);
+            media = quilometragemT / combustivel;
+            lucro = valorT - (combustivel * 6.90);
             
 
-            Console.WriteLine("A média de consumo por dia: "+average+"Km/L");
+            Console.WriteLine("A média de consumo por dia: "+media +"Km/L");
 
             Console.WriteLine("O lucro líquido por dia é: " + lucro.ToString("C"));
 
