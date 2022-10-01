@@ -289,6 +289,37 @@ namespace AcademiaDotNetAtos
             Média do consumo = Total quilometragem/ quantidade de combustível gasto
 
             Lucro do dia = Valor total recebido - (quantidade de combustível gasto * 6,90)
+            */
+            
+            double odoI, odoF, quilometragemT, average,combustivel,valueT,lucro;
+
+            Console.WriteLine("Digite o valor do odômetro inicial (KM):");
+            odoI = Double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o valor do odômetro final (KM):");
+            odoF = Double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o número de combustível utilizado (L):");
+            combustivel = Double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o valor total recebido R$:");
+            valueT = Double.Parse(Console.ReadLine());
+
+
+
+            quilometragemT = odoF - odoI;
+            average = quilometragemT / combustivel;
+            lucro = valueT - (combustivel * 6.90);
+            
+
+            Console.WriteLine("A média de consumo por dia: "+average+"Km/L");
+
+            Console.WriteLine("O lucro líquido por dia é: " + lucro.ToString("C"));
+
+            
+            
+            /*
+            
 
             13) Uma loja vende bicicletas com um acréscimo de 50% sobre o preço de custo. Ela paga a cada vendedor 2 salários mínimos mensais, mais uma comissão de 15% sobre o 
             preço de custo de cada bicicleta vendida. Desenvolva um algoritmo que leia o valor do salário mínimo, o preço de custo de cada bicicleta e o número de bicicletas 
