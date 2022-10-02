@@ -15,6 +15,7 @@ namespace ExerciciosSegundoDia
 
             /*
             2 - Faça um algoritmo para ler um número e verificar se ele é par ou ímpar.
+            */
 
             Console.Write("Insira um número inteiro:");
             int number = int.Parse(Console.ReadLine());
@@ -27,10 +28,11 @@ namespace ExerciciosSegundoDia
             {
                 Console.WriteLine("Número é impar.");
             }
-            */
+            
 
             /*
             3 - Escrever um algoritmo para ler quatro valores inteiros, calcular a sua média, e escrever na tela os que são superiores à média.
+            */
             
 
             Console.Write("Insira um número inteiro:");
@@ -62,12 +64,13 @@ namespace ExerciciosSegundoDia
                 Console.WriteLine("Maior que a média:" + number4);
             }
 
-            */
+           
 
             /*
              
             4 - Escrever um algoritmo para ler a quantidade de horas aula dadas por dois professores e o valor por hora recebido por cada um deles. 
             Mostrar na tela qual dos professores tem o maior salário total.
+            */
 
             Console.Write("Digite a quantidade de horas do primeiro professor:");
             int hour1 = int.Parse(Console.ReadLine());
@@ -90,7 +93,7 @@ namespace ExerciciosSegundoDia
                 Console.WriteLine("O segundo professor tem o maior salário de R$" +calc2);
             }
 
-            */
+            
             /*
             5 - Escrever um algoritmo para ler duas notas de um aluno e escrever na tela a palavra “Aprovado” 
             se a média das duas notas for maior ou igual a 7, 0.
@@ -128,14 +131,10 @@ namespace ExerciciosSegundoDia
             string name = string.ToUpper(Console.ReadLine());
 
             /*
-
             7 - Faça um programa em C# e no VS para receber uma frase qualquer e uma palavra de pesquisa.
             O programa deve avaliar se a palavra aparece na frase, informando o usuário via mensagem, como por
             exemplo, A palavra encontra-se na frase   ou A palavra não se encontra na frase.
-
             */
-
-            /*
 
             string frase = "";
             string palavra = "";
@@ -155,9 +154,6 @@ namespace ExerciciosSegundoDia
                 Console.WriteLine("A palavra não encontra-se na frase.");
             }
 
-
-            */
-
             /*
             8 - Faça um programa no VS que receba o código, nome, salário base e o total de vendas de um funcionário.
             Caso o total de vendas seja acima de R$ 500,00, adicionar ao seu salário final 5 % do total de vendas.
@@ -165,6 +161,8 @@ namespace ExerciciosSegundoDia
             E por fim, se o total de vendas seja maior que R$ 5000,00, adicionar ao seu salário final 10 % do
             total de vendas.
             */
+            
+            
             
             //18 - Escreva um algoritmo que leia 3 valores pelo teclado e então informe qual o maior deles.
 
