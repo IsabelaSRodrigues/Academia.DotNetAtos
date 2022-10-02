@@ -1,0 +1,15 @@
+C:\Users\Isabela\Projeto\ExerciciosVetores\ExerciciosVetores\bin\Debug\net6.0\ExerciciosVetores.exe
+C:\Users\Isabela\Projeto\ExerciciosVetores\ExerciciosVetores\bin\Debug\net6.0\ExerciciosVetores.deps.json
+C:\Users\Isabela\Projeto\ExerciciosVetores\ExerciciosVetores\bin\Debug\net6.0\ExerciciosVetores.runtimeconfig.json
+C:\Users\Isabela\Projeto\ExerciciosVetores\ExerciciosVetores\bin\Debug\net6.0\ExerciciosVetores.dll
+C:\Users\Isabela\Projeto\ExerciciosVetores\ExerciciosVetores\bin\Debug\net6.0\ExerciciosVetores.pdb
+C:\Users\Isabela\Projeto\ExerciciosVetores\ExerciciosVetores\obj\Debug\net6.0\ExerciciosVetores.csproj.AssemblyReference.cache
+C:\Users\Isabela\Projeto\ExerciciosVetores\ExerciciosVetores\obj\Debug\net6.0\ExerciciosVetores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Isabela\Projeto\ExerciciosVetores\ExerciciosVetores\obj\Debug\net6.0\ExerciciosVetores.AssemblyInfoInputs.cache
+C:\Users\Isabela\Projeto\ExerciciosVetores\ExerciciosVetores\obj\Debug\net6.0\ExerciciosVetores.AssemblyInfo.cs
+C:\Users\Isabela\Projeto\ExerciciosVetores\ExerciciosVetores\obj\Debug\net6.0\ExerciciosVetores.csproj.CoreCompileInputs.cache
+C:\Users\Isabela\Projeto\ExerciciosVetores\ExerciciosVetores\obj\Debug\net6.0\ExerciciosVetores.dll
+C:\Users\Isabela\Projeto\ExerciciosVetores\ExerciciosVetores\obj\Debug\net6.0\refint\ExerciciosVetores.dll
+C:\Users\Isabela\Projeto\ExerciciosVetores\ExerciciosVetores\obj\Debug\net6.0\ExerciciosVetores.pdb
+C:\Users\Isabela\Projeto\ExerciciosVetores\ExerciciosVetores\obj\Debug\net6.0\ExerciciosVetores.genruntimeconfig.cache
+C:\Users\Isabela\Projeto\ExerciciosVetores\ExerciciosVetores\obj\Debug\net6.0\ref\ExerciciosVetores.dll
