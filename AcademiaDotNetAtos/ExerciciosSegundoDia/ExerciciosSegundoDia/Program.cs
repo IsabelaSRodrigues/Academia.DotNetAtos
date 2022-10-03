@@ -164,7 +164,236 @@ namespace ExerciciosSegundoDia
             
             
             
-            //18 - Escreva um algoritmo que leia 3 valores pelo teclado e então informe qual o maior deles.
+            /*
+            9 - Faça um programa no VS que receba do usuário 3 valores de glicemia em jejum, representando a medição
+            diária de um paciente diabético. Para cada valor recebido analisar e informar ao paciente o seguinte:
+            Se o valor diário for menor que 65, avisá - lo que corre risco de hipoglicemia
+            Se o valor diário for maior que 250, avisá - lo que corre risco de hiperglicemia.
+
+            Além disso, o programa deve fazer a média dos 3 valores de glicemia coletados.E se a média for
+            menor que 80, avisá - lo que é preciso diminuir 2 unidades de insulina.Se a média for maior que
+            150, avisá - lo que será necessário adicionar 2 unidades de insulina.
+
+            */
+            
+            
+            double gli1, gli2,gli3, calc, media;
+
+            Console.Write("Informe o primeiro valor da glicemia:");
+            gli1 = double.Parse(Console.ReadLine());
+
+            Console.Write("Informe o segundo valor da glicemia:");
+            gli2 = double.Parse(Console.ReadLine());
+
+            Console.Write("Informe o terceiro valor da glicemia:");
+            gli3 = double.Parse(Console.ReadLine());
+
+            calc = gli1 + gli2+ gli3;
+            media = (gli1 + gli2 + gli3) / 3;
+
+            if (calc < 65)
+            {
+                Console.Write("Cuidado! Risco de hipoglicemia.");
+            }
+            if(calc > 250)
+            {
+                Console.Write("Cuidado! Risco de hiperglicemia.");
+            }
+            if (media < 80)
+            {
+                Console.Write("É preciso diminuir 2 unidades de insulina.");
+            }
+            if (media > 150)
+            {
+                Console.Write("É preciso adicionar 2 unidades de insulina.");
+            }
+
+
+            /*
+
+            10 - Faça um programa no VS que receba dados de dois atletas(nome, idade e altura).
+            O programa deve mostrar os dados do atleta mais novo e mais alto.
+            */
+
+            
+            string nome1, nome2;
+            int idade1, idade2;
+            double altura1, altura2;
+
+            Console.Write("Digite o nome do primeiro atleta:");
+            nome1 = (Console.ReadLine());
+
+            Console.Write("Digite a idade do primeiro atleta:");
+            idade1 = int.Parse(Console.ReadLine());
+
+            Console.Write("Digite a altura do primeiro atleta:");
+            altura1 = double.Parse(Console.ReadLine());
+
+            Console.Write("Digite o nome do segundo atleta:");
+            nome2 = (Console.ReadLine());
+
+            Console.Write("Digite a idade do segundo atleta:");
+            idade2 = int.Parse(Console.ReadLine());
+
+            Console.Write("Digite a altura do segundo atleta:");
+            altura2 = double.Parse(Console.ReadLine());
+
+            if (idade1 < idade2)
+            {
+                Console.Write(nome1+" é o atleta mais novo com "+idade1+" anos.");
+            }
+            else
+            {
+                Console.Write(nome2+ " é o atleta mais novo com " + idade2+" anos.");
+            }
+            if (altura1 > altura2)
+            {
+                Console.Write(nome1 + " é o atleta mais alto com " + altura1.ToString("N2") + " de altura.");
+            }
+            else
+            {
+                Console.Write(nome2 + " é o atleta mais alto com  " + altura2.ToString("N2") + " de altura.");
+            }
+            
+
+            /*
+            11 - Faça um programa no VS que receba uma hora, dividida em 2 variáveis(uma para hora e outra para minutos).
+            O programa deve exibir se a hora digitada está ou não válida. 
+            Lembre que usaremos o padrão de hora com 24h, de 0 a 23.
+            */
+
+            
+            int hora, minuto;
+
+            Console.Write("Digite a hora: ");
+            hora = int.Parse(Console.ReadLine());
+
+            Console.Write("Digite o minuto: ");
+            minuto = int.Parse(Console.ReadLine());
+
+            if (hora<0 || hora>23 || minuto<0 || minuto>60)
+            {
+                Console.Write("Hora inválida.");
+            }
+            else
+            {
+                Console.Write("Hora válida.");
+            }
+            
+
+
+            /*
+
+            12 - Elabore um programa em VS que leia as variáveis "codigo" e "numeroHoras", respectivamente código e
+            número de horas trabalhadas de um operário. Na sequência, calcule o salário sabendo - se que ele ganha
+            R$ 10,00 por hora. Quando o número de horas exceder a 50 calcule o excesso de pagamento
+            armazenando - o na variável "extra", caso contrário zerar tal variável.A hora excedente de trabalho vale R$ 20,00.
+            No final do processamento, exibir o salário total e o salário excedente do operário.
+            */
+
+            
+
+            double codigo, numeroHoras, salario, extra;
+
+            Console.Write("Digite o código do operário: ");
+            codigo = double.Parse(Console.ReadLine());
+
+            Console.Write("Digite o número de horas trabalhadas do operário: ");
+            numeroHoras = double.Parse(Console.ReadLine());
+
+            salario = numeroHoras * 10;
+
+            if(numeroHoras > 50)
+            {
+                extra = numeroHoras * 20;
+            }
+            else
+            {
+                extra = 0;
+            }
+            Console.WriteLine("\r\n");
+            Console.Write("O salario total = "+salario.ToString("C"));
+            Console.WriteLine("\r\n");
+            Console.Write("O salario excedente = " +extra.ToString("C"));
+
+            
+
+
+            /*
+
+            13 - Tendo como dado de entrada a altura(h) de uma pessoa, construa um programa no VS que calcule
+            seu peso ideal, utilizando as seguintes fórmulas:
+                        Para homens: (72.7 * h) - 58
+            Para mulheres: (62.1 * h) - 44.7
+
+            */
+            
+            double h,calc;
+            string sexo;
+
+            Console.Write("Digite a altura: ");
+            h = double.Parse(Console.ReadLine());
+
+  
+
+            if(h >=1.65 )
+            {
+                h= (72.7 * h) - 58;
+            }
+            else
+            {
+                h = (62.1 * h) - 44.7;
+            }
+
+            Console.Write("Seu pesso ideal é: "+h.ToString("N2")+"Kg");
+
+
+
+            
+
+            /*
+            14 - Faça um programa que peça o tamanho de um arquivo para download(em MB) e a velocidade de um
+            link de Internet(em Mbps). Em seguida, calcule e informe o tempo aproximado de download
+            do arquivo usando este link(em minutos).
+
+            */
+
+
+
+
+
+
+
+            /*
+
+            15 - Faça um programa para uma loja de tintas.O programa deverá pedir o tamanho em metros quadrados
+            da área a ser pintada. Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados
+            e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00.
+            Informe ao usuário a quantidades de latas de tinta a serem compradas e o preço total.
+
+            */
+
+           
+
+
+
+
+
+            /*
+
+            16 - Escreva um algoritmo que leia o placar de um jogo da primeira fase da copa do Brasil.Caso o time de fora tenha ganho o jogo por mais de 2 gols de diferença, mostre
+            na tela uma mensagem indicando que o time de fora já se classificou para a próxima fase. Caso contrário, mostre uma mensagem indicando que os dois times irão se
+            enfrentar novamente em um novo jogo.
+            ex: time da casa 4 x 3 time de fora, mostra "Os dois times se enfrentarão em um novo jogo"
+            ex2: time da casa 1 x 3 time de fora, mostra "O time de fora já se classificou"
+            plus: caso ocorra um segundo jogo, leia o placar desse novo jogo e então diga quem passou de fase.
+
+            17 - Faça um algoritmo que leia o tamanho dos lados de um triangulo(lado a, b e c), e então diga se esses lados podem ou não formar um triangulo. Para que os lados
+            formem um triângulo, todos os lados devem ser menores ou iguais a soma dos outros dois lados. Caso os lados formem um triangulo, diga se o mesmo é equilátero(todos
+            os lados iguais), isoceles(somente 2 lados são iguais) ou escaleno(os 3 lados são diferentes).
+
+            18 - Escreva um algoritmo que leia 3 valores pelo teclado e então informe qual o maior deles.
+            */
 
             int n1, n2, n3;
 
@@ -189,6 +418,14 @@ namespace ExerciciosSegundoDia
             {
                 Console.Write("O maior valor é: " + n3);
             }
+            
+            /*
+            19 - Ajuste o exercício 18 de maneira que mostre os valores informados em ordem crescente.
+
+            20 - Escreva um algoritmo para o jogo de adivinhação do número secreto. O jogador tem 3 chances e recebe dicas do tipo “é maior” ou “é menor”. 
+            plus: você pode gerar o número de forma randomica(função random c#).
+            */
+
 
 
 
@@ -202,3 +439,4 @@ namespace ExerciciosSegundoDia
 
         }
     }
+}
