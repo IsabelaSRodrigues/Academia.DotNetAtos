@@ -11,6 +11,26 @@ namespace ExerciciosSegundoDia
             1 - Faça um algoritmo para calcular e mostrar a área de um triângulo a partir dos valores da base e da altura lidos pelo teclado: 
             Área do triangulo = (base * altura) / 2;
             Teste se a base ou a altura digitada não foi igual a zero.
+            */
+            
+            int baseT, alturaT, areaT;
+
+            Console.WriteLine("Digite o valor da base do triangulo:");
+            baseT = int.Parse(Console.ReadLine());
+            
+            Console.WriteLine("Digite o valor da altura do triangulo:");
+            alturaT = int.Parse(Console.ReadLine());
+
+            if (baseT == 0 || alturaT == 0)
+            {
+                Console.WriteLine("Um dos valores informados é igual a zero.");
+            }
+            else
+            {
+                areaT = (baseT * alturaT) / 2;
+                Console.WriteLine("A área do triangulo é: "+areaT);
+            }
+
 
 
             /*
@@ -102,9 +122,35 @@ namespace ExerciciosSegundoDia
             é a média entre a nota do exame e a média das 2 notas. 
             Se esta média final for maior ou igual a 5,0, o programa deve escrever “Aprovado”, caso contrário deve 
             escrever “Reprovado”.
+            */
+            
+            double nota1, nota2, media, mediaF;
 
-             
-            /*
+            Console.WriteLine("Digite a primeira nota:");
+            nota1 = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite a segunda nota:");
+            nota2 = double.Parse(Console.ReadLine());
+
+            media = (nota1 + nota2) / 2;
+            
+
+            if(media >= 7)
+            {
+                Console.WriteLine("Aprovado!");
+            }
+            else
+            {
+                mediaF = (media + media) / 2;
+                if(mediaF >= 5)
+                {
+                    Console.WriteLine("Aprovado!");
+                }
+                else
+                {
+                    Console.WriteLine("Reprovado!");
+                }
+            }
            
 
 
@@ -127,10 +173,13 @@ namespace ExerciciosSegundoDia
 
             /*
 
-            Console.Write("Digite o nome:");
-            string name = string.ToUpper(Console.ReadLine());
-
+            
             /*
+            
+            
+            
+            
+            
             7 - Faça um programa em C# e no VS para receber uma frase qualquer e uma palavra de pesquisa.
             O programa deve avaliar se a palavra aparece na frase, informando o usuário via mensagem, como por
             exemplo, A palavra encontra-se na frase   ou A palavra não se encontra na frase.
